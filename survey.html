@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey Form</title>
+    </head>
+    <body>
+        <header><h1 id="title">freeCodeCamp Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p></header> 
+            <main>
+                <form id="survey-form">
+                        <label for="name "id="name-label">Name</label><br>
+                        <input id="name" type="text" required placeholder="Enter your name"><br>
+
+                        <label for="email " id="email-label">Email</label><br>
+                        <input id="email" type="email" required placeholder="Enter your email"><br>
+
+                        <label for="number" id="number-label"> Age(optional)</label><br>
+                        <input id="number" type="number" min="4" max="15" required placeholder="Age">
+                        <br>   
+                        
+                        <label for="dropdown">Which option best describes your current role?</label><br>
+                    
+                        <select id="dropdown">
+                            <option>Select current role</option>
+                            <option>Student</option>
+                            <option>Full Time Job</option>
+                            <option>Full Time Learner</option>
+                            <option>Prefer not to say</option>
+                            <option>Other</option>
+                        </select><br>
+                            
+
+                            <label >Would you recommend freeCodeCamp to a friend?</label><br>
+                        <input type="radio" name="radio-group" id="definitely " value="0">
+                        <label for="definitely " >Definitely </label><br> 
+                        <input type="radio" name="radio-group" id="maybe" value="1">
+                        <label for="maybe">Maybe</label><br>
+                        <input type="radio" name="radio-group" id="notsure" value="2">
+                        <label for="notsure">Not sure</label><br>
+                        
+
+
+                        <label for="dropdown">What is your favorite feature of freeCodeCamp?</label><br>
+                        <select id="dropdown">
+                            <option>Select an option</option>
+                            <option>Challenges</option>
+                            <option>Project</option>
+                            <option>Open Source</option>
+                            <option>Community</option>
+                            </select><br>
+
+<label for="checkbox">What would you like to see improved?(check all that apply)</label><br>
+                        <input type="checkbox" value="0" id="FEP ">
+                        <label for="FEP ">Front-end Projects</label><br>
+                        <input type="checkbox" value="1" id="BEP">
+                        <label for="BEP">Back-end Projects</label><br>
+                        <input type="checkbox" value="2" id="DV">
+                        <label for="DV">Data Visualization</label><br>
+                        <input type="checkbox" value="3" id="C">
+                        <label for="C">Challenges</label><br>
+                        <input type="checkbox" value="4" id="OSC">
+                        <label for="OSC">Open Sorce Communitys</label><br>
+                        <input type="checkbox" value="5" id="GHR">
+                        <label for="GHR">Gitter help rooms</label><br>
+                        <input type="checkbox" value="6" id="V">
+                        <label for="V">Videos</label><br>   
+                        <input type="checkbox" value="7" id="CM">
+                        <label for="CM">City Meetups</label><br>   
+                        <input type="checkbox" value="8" id="W">
+                        <label for="W">Wiki</label><br>   
+                        <input type="checkbox" value="9" id="F">
+                        <label for="F">Forum</label><br>   
+                        <input type="checkbox" value="10" id="AC">
+                        <label for="AC">Additional Courses</label><br>
+                        
+                        <label>Any commens or suggestions?</label><br>
+                        <textarea>Enter your comment here...</textarea>
+                        <hr>
+
+
+
+ 
+
+
+
+
+
+
+
+
+                        <input id="submit" type="submit">
+                </form>
+            </main>
+        </body>
+</html> 
